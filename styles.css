@@ -1,0 +1,982 @@
+@import url(https://db.onlinewebfonts.com/c/35019d3c7bd526a9353879a622d7ab72?family=PayPal+Open+TT);
+@font-face{
+    font-family: "PayPal Sans Big Medium Regular";
+    src: url("https://db.onlinewebfonts.com/t/4ae8ae5d2fe851902b9c1cb0e824c4a4.eot");
+    src: url("https://db.onlinewebfonts.com/t/4ae8ae5d2fe851902b9c1cb0e824c4a4.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/4ae8ae5d2fe851902b9c1cb0e824c4a4.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/4ae8ae5d2fe851902b9c1cb0e824c4a4.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/4ae8ae5d2fe851902b9c1cb0e824c4a4.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/4ae8ae5d2fe851902b9c1cb0e824c4a4.svg#PayPal Sans Big Medium Regular")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+    
+}
+.Background {
+    background-color: white;
+    width: 100%; /* Updated to 100vw */
+    height: 100%;
+    
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Header {
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgb(229, 227, 227);
+    background-color: rgb(255, 255, 255);
+    line-height: 20px;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 24px;
+    width: 20;
+    height: 2.25rem;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+}
+
+.Buttons {
+    margin-top: -80px;
+    padding-top: 25px;
+    padding-left: 60px;
+    position: absolute;
+}
+
+.tab-button,
+.tab-button-dev,
+.help-button {
+    padding: 0.6rem 0.25rem; /* Adjust padding for better spacing */
+    font-size: 1.135rem;
+    line-height: 1.5rem;
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+    display: inline-block;
+    border-radius: 1.5925rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    position: relative; /* Adjusted to relative for positioning the dropdown */
+    color: #001c64;
+    margin-right: 10px; /* Add space between buttons */
+    white-space: nowrap;
+}
+
+.tab-button:hover {
+    background-color: #e3f9fe;
+    border-radius: 1.7925rem;
+    font-size: 1.165rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    font-size: 1.025rem;
+    margin-right: 20px;
+    padding: 0.6rem 0.25rem;
+}
+
+.tab-button-dev:hover {
+    background-color: #ffffff;
+    font-size: 1.165rem;
+    color: #2484d3;
+    font-weight: bold;
+    font-size: 1.025rem;
+    border-color: rgb(194, 194, 194);
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.help-button {
+    margin-left: 280px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-size: 1.125rem;
+    border-radius: 2.7625rem;
+    color: #001c64;
+    background-color: transparent;
+}
+
+.help-button:hover {
+    color: #399bea;
+    font-weight: bold;
+    border-radius: 2.7625rem;
+    border-color: #d0d0d0;
+    border-width: 0.5px;
+    cursor: pointer;
+    /* You can add other styles as needed for the hover effect */
+}
+.login-button{
+    margin-left: 10px;    
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1.125rem;
+    border-radius: 2.7625rem;
+    color: #001c64;
+    background-color: transparent;
+    border: 2px solid #001c64;
+}
+.login-button:hover{
+    border-radius: 2.7625rem;
+    color: #2484d3;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #2484d3;
+}
+.signup-button{
+    margin-left: 10px;
+    font-size: 1.125rem;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 2.7625rem;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #001c64;
+    border-color: transparent;
+   
+}
+
+.signup-button:hover{
+    background-color: #2484d3;
+    border-color: #2484d3;
+}
+.dropdown {
+    padding-left: 10px;
+    position: relative;
+    display: inline-block; /* Keep the button and dropdown inline */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%; /* Position the dropdown below the button */
+    left: 0; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.video-yellow-shape {
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 350px;
+    width: 70%; /* Adjust the width as needed */
+    height: unset; /* Maintain the aspect ratio */
+   
+}
+.Shape-yellow {
+    transition: all 0.3s ease;
+    width: 40%;
+    height: 35%;
+    padding-left: 800px;
+    margin-top: -0.5px;
+}
+.Left-section {
+    position: relative;
+    z-index: 1; /* Ensure the text is positioned behind the video */
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px; /* Add padding for better visibility */
+    box-sizing: border-box; /* Include padding in the width */
+}
+h1{
+    font-family: "PayPal Sans Big Medium Regular";
+    font-size: 400%;
+    font-weight: 1000px;
+    color: #001c64;
+    margin-top: -415px;
+    margin-left: 180px;
+    line-height: 1;
+    letter-spacing: -4px;
+    
+}
+.capsule {
+    width: 150px;
+    height: 40px;
+    margin-top: -236px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 2px;
+    background-color: #f1ede8;
+    border-radius: 20px; /* Half of the height to make it a capsule shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -444;
+    left: 50%; /* Center the capsule horizontally */
+    transform: translateX(-50%);
+}
+
+.capsule-button1,
+.capsule-button2 {
+    margin-top: -2px;
+    padding: 9px 21px; /* Adjust the padding as needed */
+    background-color: #ffffff; /* Set the button background color */
+    color: #001c64; /* Set the button text color */
+    border: none;
+    border-radius: 20px; /* Set the button border radius */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.capsule-button1 {
+    margin-right: 5px; /* Adjust the spacing between the buttons */
+}
+
+.capsule-button2 {
+    margin-left: 5px; /* Adjust the spacing between the buttons */
+    background-color: #f1ede8;
+}
+
+.capsule-button1:hover {
+    background-color: #fff;
+    border: #fff solid 2px;
+}
+
+.capsule-button2:hover {
+    background-color: #e6e0d9;
+    border: #e6e0d9 solid 2px;
+}
+.Text-title{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    margin-left: 180px;
+    white-space: nowrap;
+}
+.rounded-rectangle {
+    width: 900px; /* Set the width of the rectangle */
+    height: 360px; /* Set the height of the rectangle */
+    background-color: #0070e0; /* Set the background color */
+    border-radius: 20px; /* Adjust the border-radius to control the curvature */
+    padding: 20px; /* Add padding inside the rectangle as needed */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+    margin-top: 100px;
+    margin-left: 160px;
+    
+}
+.capsule-button3,.capsule-button4{
+    position: relative;
+    font-weight: bolder;
+    margin-left: 180px; /* This will push the button to the right */
+    margin-top: 5px;
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 2.7625rem;
+    color: #ffffff;
+    background-color: #001c64;
+    border: 2px solid #001c64;
+    padding-left: 20px;
+    text-align: center;
+}
+.capsule-button4{
+    margin-left: 10px;
+    background-color: transparent;
+    color: #001c64;
+    padding-left: 30px;
+}
+.capsule-button3:hover{
+    background-color: #0070e0;
+    border-color: #0070e0;
+}
+.capsule-button4:hover{
+    border-color: #0070e0;
+    color: #0070e0;
+}
+.box-title{
+    font-family: "PayPal Sans Big Medium Regular";
+    font-size: 300%;
+    font-weight: 1000px;
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.box-title-desc{
+    color: #ffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: -30px;
+    justify-content: center;
+    line-height: 25px;
+    -webkit-text-stroke: 0.1px #ffffff; /* For webkit browsers like Chrome and Safari */
+
+}
+.rounded-rectangle-img{
+    width: auto;
+    height: 100%;
+    margin-top: -250px;
+    margin-left: 440px;
+
+}
+.Learn-text{
+    color: #ffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    margin-left: 20px;
+    margin-top: -60px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 25px;
+}
+.circle {
+    width: 35px;
+    height: 35px;
+    background-color: #529ae3; /* Set the background color */
+    border-radius: 50%; /* Make it a circle */
+    margin-top: -45px;
+    margin-left: 270px;
+}
+.img-circle{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: -6px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+}
+.img-circle:hover{
+    transform: translateX(8px); 
+}
+.left-down{
+    margin-top: 100px;
+    margin-left: -15px;
+}
+.left-down-img{
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+}
+.left-down-right{
+    margin-left: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px; 
+}
+.title-left-down{
+    font-size: 250%;
+    color: #001c64;
+    font-family: "PayPal Sans Big Medium Regular";
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -2px;
+    -webkit-font-smoothing: antialiased;
+    white-space: nowrap;
+    margin-top: -370px;
+}
+.desc-left-down{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.5px #001c64; /* For webkit browsers like Chrome and Safari */
+}
+.learn-left-down{
+    margin-top: 30px;
+    color: #0070e0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 20px;
+}
+.circle-1{
+    width: 30px;
+    height: 30px;
+    background-color: #cce2f9; /* Set the background color */
+    border-radius: 50%; /* Make it a circle */
+    margin-top: -42px;
+    margin-left: 285px;
+}
+.img-circle-1{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: -7px;
+    transition: transform 0.3s ease;
+}
+.img-circle-1:hover{
+    transform: translateX(8px); 
+}
+.circle-2{
+    width: 30px;
+    height: 30px;
+    background-color: #cce2f9; /* Set the background color */
+    border-radius: 50%; /* Make it a circle */
+    margin-top: -45px;
+    margin-left: 305px;
+}
+.img-circle-2{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: -7px;
+   
+    transition: transform 0.3s ease;
+}
+.img-circle-2:hover{
+    transform: translateX(8px); 
+}
+.text-left-down{
+    font-size: 250%;
+    color: #001c64;
+    font-family: "PayPal Sans Big Medium Regular";
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -2px;
+    -webkit-font-smoothing: antialiased;
+    white-space: nowrap;
+    margin-top: 200px;
+    margin-left: -550px;
+}
+.shop-latest-button{
+    font-weight: bolder;
+    margin-top: 10px; /* Set the desired gap from the text */
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 2.7625rem;
+    color: #ffffff;
+    background-color: #001c64;
+    border: 2px solid #001c64;
+    padding-left: 30px;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: -550px;
+    z-index: 3;
+}
+.shop-latest-button:hover{
+    background-color: #0070e0;
+    border-color: #0070e0;
+}
+.desc-text-left-down{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    margin-left: -545px;
+    margin-top: -10px;
+    -webkit-text-stroke: 0.5px #001c64; /* For webkit browsers like Chrome and Safari */
+}
+
+.right-image{
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: -70px;
+    margin-top: -435px;
+}
+.Learn-text-left-down{
+    margin-top: 30px;
+    color: #0070e0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    justify-content: center;
+    margin-left: -550px;
+    line-height: 20px;
+}
+.circle-3 {
+    width: 30px;
+    height: 30px;
+    background-color: #cce2f9;
+    border-radius: 50%;
+    position: relative; /* Add position property */
+    margin-top: -40px; /* Adjust the margin as needed */
+    margin-left: -300px; /* Adjust the margin as needed */
+}
+
+.img-circle-3 {
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: -7px;
+    transition: transform 0.3s ease;
+}
+
+.circle-3:hover .img-circle-3 {
+    transform: translateX(8px);
+}
+.rounded-rectangle-gray{
+    width: 950px; /* Set the width of the rectangle */
+    height: 360px; /* Set the height of the rectangle */
+    background-color: #faf8f5; /* Set the background color */
+    border-radius: 20px; /* Adjust the border-radius to control the curvature */
+    padding: 20px; /* Add padding inside the rectangle as needed */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+    margin-top: 70px;
+    margin-left: -560px;
+}
+.img-rect{
+    width: auto;
+    height: 113%;
+    margin-top: -20px;
+    margin-left: 460px;
+    border-radius: 20px;
+
+}
+.Left-second-title{
+    font-size: 250%;
+    color: #001c64;
+    font-family: "PayPal Sans Big Medium Regular";
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    -webkit-font-smoothing: antialiased;
+    white-space: nowrap;
+    margin-top: -330px;
+    margin-left: 30px;
+}
+.desc-left-second{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    margin-left: 30px;
+    margin-top: -10px;
+    -webkit-text-stroke: 0.5px #001c64;
+}
+.Learn-text-second{
+    margin-top: 30px;
+    color: #0070e0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    justify-content: center;
+    margin-left: 30px;
+    line-height: -20px;
+}
+.circle-4{
+    width: 30px;
+    height: 30px;
+    background-color: #cce2f9;
+    border-radius: 50%;
+    position: relative; /* Add position property */
+    margin-top: -44px; /* Adjust the margin as needed */
+    margin-left: 230px;
+}
+.img-circle-4{
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: -7px;
+    transition: transform 0.3s ease;
+}
+.circle-4:hover .img-circle-4 {
+    transform: translateX(8px);
+}
+.title-left-down-third{
+    font-size: 270%;
+    color: #001c64;
+    font-family: "PayPal Sans Big Medium Regular";
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -2px;
+    -webkit-font-smoothing: antialiased;
+    white-space: nowrap;
+    margin-top: 50px;
+    margin-left: -490px;
+}
+.rounded-rectangle-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -760px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.rectangle-rounded {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 100px;
+    background-color: #faf8f5;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s, border-width 0.3s;
+}
+
+.rectangle-rounded:hover {
+    border-color: #faf8f5;
+    border-width: 2px;
+}
+
+.box-text {
+    font-size: 140%;
+    color: #001c64;
+    font-family: "PayPal Sans Big Medium Regular";
+    font-weight: bold;
+    margin-left: 10px;
+    line-height: 1;
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+    white-space: nowrap;
+}
+.svg-img{
+    margin-left: -45px;
+    margin-top: 4px;
+   /* Adjust the width as needed */
+    height: 60px; 
+    width: 60px;/* Adjust the height as needed */
+}
+.svg-img-down1{
+    margin-left: -30px;
+    height: 60px; 
+    width: 60px;
+}
+.svg-img-down2{
+    height: 60px; 
+    width: 60px;
+    margin-left: -30px;
+}
+.svg-img-top2{
+    margin-left: -40px;
+}
+.circle-5{
+    width: 30px;
+    height: 30px;
+    background-color: #cce2f9;
+    border-radius: 50%;
+    position: relative; /* Add position property */
+}
+
+.img-circle-5{
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    transition: transform 0.3s ease;
+}
+.circle-5:hover .img-circle-5{
+    transform: translateX(8px);
+}
+.additional-div1{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.additional-div2{
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.additional-div3{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.additional-div4{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.rounded-rectangle-down{
+    margin-left: -1265px;
+}
+.bottom-rectangle{
+    width: 1785px;
+    height: 400px;
+    background-color: #0070e0;
+    margin-top: 50px;
+    margin-left: -740px;
+}
+.Left-section2{
+    margin-left: 200px;
+    margin-top: -10px;
+    top: 2;
+}
+.Left-section-text-bottom{
+    font-size: 250%;
+    color: #ffffff;
+    font-family: "PayPal Sans Big Medium Regular";
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -2px;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 200px;
+    padding-top: 50px;
+    white-space: nowrap;
+
+}
+.Text-title-bottom{
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    margin-left: 200px;
+    margin-top: -10px;
+    -webkit-text-stroke: 0.1px #ffff
+}
+.button-capsule-bottom-1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.capsule-button3-down {
+    position: relative;
+    font-weight: bolder;
+    margin-left: 180px;
+    margin-top: 5px;
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 2.7625rem;
+    color: #ffffff;
+    background-color: #001c64;
+    border: 2px solid #001c64;
+    padding-left: 20px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Move the transition here */
+}
+.capsule-button4-down{
+    margin-left: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 2.7625rem;
+    border: 2px solid #ffff; /* Set the border properties */
+    padding-left: 30px;
+    padding: 0.75rem 2rem;
+    position: relative;
+    font-weight: bolder;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.capsule-button3-down:hover {
+    border-color: transparent; /* Hide the border on hover */
+    transform: translateY(1px);
+}
+.capsule-button4-down:hover{
+    border-color: #adeafc;
+    color: #adeafc;
+    transform: translateY(1px);
+}
+.consumer-component{
+    width: 380px;
+    height: 380px;
+    margin-top: -345px;
+    margin-left: 650px;
+}
+.Explore{
+    font-size: 240%;
+    color: #001c64;
+    font-family: "PayPal Sans Big Medium Regular";
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -2px;
+    -webkit-font-smoothing: antialiased;
+    white-space: nowrap;
+    margin-top: 75px;
+    margin-left: 200px;
+}
+.Explore-desc{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    margin-left: 200px;
+    margin-top: -10px;
+    -webkit-text-stroke: 0.1px #001c64;
+}
+.card-container{
+    padding-left: 30px;
+    gap: 40px;
+    display: flex;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 600px;
+    height: 570px;
+    border-radius: 20px; /* Top-left, top-right, bottom-right, bottom-left */
+    background-color: #faf8f5;
+    /* Initial border color is transparent */
+}
+
+/* On mouse-over, add a deeper shadow and change border color */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   
+}
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+    width: 450px;
+    height: 200px;
+    margin-left: 20px;
+
+}
+.card-img{
+    width: 350px;
+    height: 300px;
+}
+.Head-Top{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.1px #001c64;
+}
+.h4 {
+    font-size: 1.5em; /* 200% is a relative value, using em for better readability */
+    color: #001c64;
+    font-family: "PayPal Sans Big Medium Regular";
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+    white-space: nowrap; 
+}
+.midtop{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.1px #001c64;
+}
+.date-card{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.1px #001c64;
+}
+.bottom-paragraph{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.desc-bottom{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.3px #001c64;
+    text-justify: auto;
+}
+.sup{
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50%;
+}
+.desc-bottom a {
+    text-decoration: none;
+    color: #0070e0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.desc-bottom a:hover {
+    color: #001c64;
+    text-decoration: underline;
+}
+.footer{
+    padding-top: 100px;
+    
+    margin-left: 200px;
+}
+.footer-logo{
+    width: 12.07rem;
+    height: 3.2rem;
+}
+hr{
+    margin-top: 20px;;
+    margin-left: 1px;
+    width: 45%
+}
+.navigation-row {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navigation-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #001c64;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.8px #001c64;
+
+}
+
+.navigation-link:hover {
+    text-decoration: underline;
+    
+}
+.last-copyright{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.copyright-text{
+    color: #424242;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+    line-height: 25px;
+    white-space: nowrap;
+    -webkit-text-stroke: 0.1px #8d8d8d;
+    text-justify: auto;
+}
+.navigation-row-1{
+    margin-top: -40px;
+    margin-left: 120px;
+}
