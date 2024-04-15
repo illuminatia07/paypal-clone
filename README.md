@@ -4,7 +4,6 @@
 ✨ Key Features:
 
 Pixel-Perfect Design: Accurately replicated the design of PayPal's homepage using HTML and CSS.
-Responsive Layout: Ensured the website is fully responsive, adapting seamlessly to various screen sizes and devices.
 CSS Flexbox and Grid: Leveraged modern CSS techniques like Flexbox and Grid for efficient layout and alignment.
 Cross-Browser Compatibility: Tested and optimized the website for consistent performance across different web browsers.
 Code Organization: Maintained clean and well-structured HTML and CSS code for easy maintenance and scalability.
