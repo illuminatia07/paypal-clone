@@ -14,4 +14,4 @@ This project showcases a static clone of PayPal's homepage, meticulously crafted
 🚀 Explore the Clone:
 View the static PayPal homepage clone and experience the seamless user interface.
 
-💼 GitHub Repository: 
+💼 GitHub Repository: https://illuminatia07.github.io/paypal-clone/
